@@ -58,9 +58,9 @@
 				5D5E03792ACD90E4000F4675 /* BarcodeScannerApp.swift */,
 				5D5E037B2ACD90E4000F4675 /* BarcodeScannerView.swift */,
 				5D5E03872ACD94DE000F4675 /* ScannerVC.swift */,
+				5D5E03892ACD9CD4000F4675 /* ScannerView.swift */,
 				5D5E037D2ACD90E7000F4675 /* Assets.xcassets */,
 				5D5E037F2ACD90E7000F4675 /* Preview Content */,
-				5D5E03892ACD9CD4000F4675 /* ScannerView.swift */,
 			);
 			path = "Barcode-Scanner";
 			sourceTree = "<group>";
