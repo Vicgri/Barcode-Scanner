@@ -9,13 +9,25 @@ import SwiftUI
 
 struct BarcodeScannerView: View {
     var body: some View {
+      NavigationView {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+          ScannerView()
+            .frame(maxWidth: .infinity, maxHeight: 300)
+          
+          Spacer().frame(height: 60)
+          
+          Label("Scanned Barcode:",
+                systemImage: "barcode.viewfinder")
+          .font(.title)
+          
+          Text ("Not Yet Scanned")
+            .bold()
+            .font(.largeTitle)
+            .foregroundStyle(.green)
+            .padding()
         }
-        .padding()
+        .navigationTitle("Barcode Scanner")
+      }
     }
 }
 
